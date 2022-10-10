@@ -1,0 +1,72 @@
+header {
+    font-size: 1.5rem;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    width: 10vh;
+    height: 10vh;
+}
+
+nav, #menu-box {
+    display: none;
+}
+
+#menu-box:checked ~ nav {
+    display: block;
+}
+
+.menu-label {
+    float: right;
+    padding: 50px;
+}
+
+.fas {
+    position: absolute;
+    top: 25px;
+    color: yellow;
+}
+
+nav {
+    /* position: absolute; */
+    background-color: black;
+    right: 0px;
+    top: 55px;
+}
+
+nav a {
+    display: block;
+    color: yellow;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+@media (min-width : 1000px) {
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .fas {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

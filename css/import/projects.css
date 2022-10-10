@@ -1,0 +1,37 @@
+.projects img {
+    width: 11rem;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    border: var(--light) solid .2rem;
+    transition: all .3s ease-out;
+}
+
+.project-list {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aqua;
+    border: solid 1px black;
+}
+
+.project-items{
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 1px 1px 25px yellow;
+}
+
+@media (min-width 1000px) {
+    
+    .project-list {
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 3rem;
+        gap: 5rem;
+    }
+}
