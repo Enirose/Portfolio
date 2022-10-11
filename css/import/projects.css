@@ -22,14 +22,27 @@
     margin-bottom: 3rem;
     box-shadow: 1px 1px 25px rgb(128, 128, 75);
     border: solid 1px black;
-    background-color: #35383D;
+    /* background-color: #35383D; */
+    background-color: white;
+}
+
+.project-items a {
+    color:black;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    
+}
+
+.fa-brands, .fa-regular {
+    font-size: 1.5rem;
 }
 
 @media (min-width: 1000px) {
     
     .project-list {
         flex-direction: row;
-        width: 90%;
+        width: 62%;
         margin-bottom: 3rem;
         gap: 5rem;
     }
