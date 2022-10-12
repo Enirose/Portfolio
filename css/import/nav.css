@@ -25,7 +25,7 @@ nav, #menu-box {
 .fas {
     position: absolute;
     top: 25px;
-    color: yellow;
+    color: var(--yellow);
 }
 
 nav {
@@ -37,14 +37,16 @@ nav {
 
 nav a {
     display: block;
-    color: yellow;
-    padding: 10px 20px;
+    color: var(--yellow);
+    margin: 2rem;
+    /* padding: 10px 20px; */
     text-decoration: none;
+    text-align: center;
     
 }
 
 nav a:hover {
-    color: yellow;
+    color: white;
 }
 
 @media (min-width : 1000px) {

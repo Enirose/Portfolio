@@ -1,0 +1,28 @@
+footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.contact-info p{
+    color: var(--yellow);
+}
+
+.copyright {
+    color: var(--yellow);
+}
+
+h4 {
+    color: white;
+}
+
+hr {
+    color: var(--yellow);
+    margin: 2rem;
+}
+

@@ -1,10 +1,15 @@
+.projects {
+    background-color: black;
+    padding: 2%;
+}
+
 .projects img {
     width: 11rem;
     height: auto;
     aspect-ratio: 1;
-    border-radius: 50%;
+    border-radius: 2%;
     object-fit: cover;
-    border: yellow solid .2rem;
+    border: var(--yellow) solid .2rem;
 }
 
 .project-list {
@@ -23,27 +28,32 @@
     box-shadow: 1px 1px 25px rgb(128, 128, 75);
     border: solid 1px black;
     /* background-color: #35383D; */
+}
+
+.projects img.links {
+    width: 2rem;
+    height: auto;
+    margin: 10px;
     background-color: white;
 }
 
-.project-items a {
-    color:black;
-    width: 20px;
-    height: 20px;
-    text-decoration: none;
-    
-}
-
-.fa-brands, .fa-regular {
-    font-size: 1.5rem;
+.projects img.links:hover {
+    background-color: var(--yellow);
 }
 
 @media (min-width: 1000px) {
     
     .project-list {
         flex-direction: row;
-        width: 62%;
+        /* width: 62%; */
         margin-bottom: 3rem;
+        /* gap: 5rem; */
+    }
+}
+
+@media (min-width: 1400px) {
+    .project-list {
         gap: 5rem;
+        
     }
 }

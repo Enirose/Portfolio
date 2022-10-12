@@ -1,0 +1,24 @@
+.about {
+    margin: 3rem;
+}
+
+.about-wrap-info p {
+    text-align: left;
+}
+
+.about img {
+    width: 50%;
+    margin: auto;
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 750px) {
+    .about-wrap {
+        flex-direction: row;
+    }
+    
+}

@@ -1,7 +1,11 @@
 @import url(/css/import/nav.css);
 @import url(/css/import/projects.css);
+@import url(/css/import/footer.css);
+@import url(/css/import/about.css);
 
-:root
+:root {
+    --yellow: #dfb15b;
+}
 
 body {
     margin: 0;
@@ -22,24 +26,43 @@ h2 {
 }
 
 h1, h2, p {
-    color: yellow;
+    color: var(--yellow);
+    line-height: 2;
 }
+
+p {
+    font-size: 20px;
+}
+
+
 /* home */
 
 .home {
-    padding: 30px;
+    padding: 20px;
 }
 
 .home-page, .projects, .about {
    text-align: center;
+   /* padding: 5rem; */
 }
 
 /* button */
 
 .btn {
-    color: yellow;
+    color: var(--yellow);
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 600;
     box
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 5rem;
+    }
+    
+    .home-page p {
+        font-size: 3rem;
+    }
+
 }
