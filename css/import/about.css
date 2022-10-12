@@ -23,3 +23,10 @@
     }
     
 }
+
+@media (min-width: 1400px) {
+    .about img {
+        width: 40%;
+    }
+    
+}

@@ -22,7 +22,8 @@ h4 {
 }
 
 hr {
-    color: var(--yellow);
-    margin: 2rem;
+    color: white;
+    width: 8.79rem;
+    margin: 2.58rem auto 1rem;
 }
 

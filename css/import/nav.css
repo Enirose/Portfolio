@@ -5,8 +5,8 @@ header {
 }
 
 .logo {
-    width: 10vh;
-    height: 10vh;
+    width: 80px;
+    /* height: 10vh; */
     margin-left: 2rem;
 }
 
@@ -70,6 +70,10 @@ nav a:hover {
         max-width: 100%;
         justify-content: center;
         align-items: center;
+    }
+
+    .logo {
+        width: 140px;
     }
 
 }

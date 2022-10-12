@@ -51,16 +51,6 @@ p {
     height: 90px;
 }
 
-/* button */
-
-.btn {
-    color: var(--yellow);
-    padding: 10px 40px;
-    font-size: 20px;
-    font-weight: 600;
-    box
-}
-
 @media (min-width: 750px) {
     h1 {
         font-size: 3rem;
