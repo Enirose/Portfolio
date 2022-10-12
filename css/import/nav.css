@@ -7,6 +7,7 @@ header {
 .logo {
     width: 10vh;
     height: 10vh;
+    margin-left: 2rem;
 }
 
 nav, #menu-box {

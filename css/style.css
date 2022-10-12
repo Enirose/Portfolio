@@ -46,6 +46,11 @@ p {
    /* padding: 5rem; */
 }
 
+.home-page .giphy {
+    width: 70px;
+    height: 90px;
+}
+
 /* button */
 
 .btn {
@@ -58,11 +63,16 @@ p {
 
 @media (min-width: 750px) {
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     
     .home-page p {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .home-page .giphy {
+        width: 90px;
+        height: 96px;
     }
 
 }

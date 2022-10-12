@@ -9,6 +9,7 @@
 .about img {
     width: 50%;
     margin: auto;
+    border-radius: 50%;
 }
 
 .about-wrap {
